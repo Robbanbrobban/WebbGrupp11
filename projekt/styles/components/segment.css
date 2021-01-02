@@ -1,0 +1,19 @@
+.segment {
+  margin: 0px 0px 0px 0px;
+  background-color: var(--clr2Light);
+}
+.segment__title {
+  font-size: 30px;
+  color: var(--clrRedHarryPotter);
+  text-align: center;
+  margin-bottom: 10px;
+  /* border-bottom: solid 2px var(--clrPurpleHarryPotter); */
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  text-decoration: underline var(--clrPurpleHarryPotter)
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1600px) {}
