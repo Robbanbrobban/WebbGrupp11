@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.intro__profile {
+  /*Bild med title och namn*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  background-image: url(/img/webp/hogwarts-3476786_1920.webp);
+  max-width: 100%;
+  height: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.info__left {
+  border-bottom-left-radius: 30px;
+}
+.info__right {
+  border-bottom-right-radius: 30px;
+}
+.intro__title {
+  width: 100%;
+}
+.intro__title h2 {
+  width: 100%;
+  padding: 7px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  color: var(--clr1);
+  background-color: rgba(118, 234, 255, 0.281);
+}
+.intro__picture {
+  width: 100%;
+  margin-right: 70%;
+  margin-top: 20%;
+}
+.intro__info {
+  margin-top: 100px;
+  width: 50%;
+  padding: 20px 10px;
+  background-color: var(--clr1VeryLightSat);
+}
+.intro__info ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  color: var(--clr1);
+}
+@media only screen and (min-width: 480px) {
+  .intro__profile {
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .intro__profile {
+    width: 38%;
+    margin-right: 2%;
+    background-image: none
+  }
+  .intro__title h2 {
+    background-color: transparent;
+  }
+  .intro__picture {
+    margin: 0;
+    background-image: url(/img/webp/hogwarts-3476786_1920.webp);
+    background-size: 700px;
+    background-position: top;
+  }
+  .intro__info {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1600px) {
+  .intro__picture {
+    background-size: cover;
+  }
+}

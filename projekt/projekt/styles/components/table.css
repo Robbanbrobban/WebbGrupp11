@@ -1,0 +1,135 @@
+.table {
+  background: var(--clr1VeryLightSat);
+  padding-bottom: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+table,
+thead,
+tbody,
+th,
+td,
+tr {
+  display: block;
+}
+thead tr {
+  display: none;
+}
+tr:nth-child(odd) {
+  background: var(--clr1Light);
+}
+tr:nth-child(even) {
+  background: var(--clr1VeryLight);
+}
+td {
+  padding: 5px 10px;
+  border: none;
+  text-align: left;
+}
+:before {
+  padding-right: 5px;
+}
+td:nth-of-type(1):before {
+  content: "Kurskod:";
+}
+td:nth-of-type(2):before {
+  content: "Kursnamn:";
+}
+td:nth-of-type(3):before {
+  content: "Period:";
+}
+td:nth-of-type(4):before {
+  content: "Roll:";
+}
+td:nth-of-type(5):before {
+  content: "SY:";
+}
+td:nth-of-type(6):before {
+  content: "IT:";
+}
+td:nth-of-type(7):before {
+  content: "ID:";
+}
+td:nth-of-type(8):before {
+  content: "GD:";
+}
+@media only screen and (min-width: 480px) {}
+@media only screen and (min-width: 768px) {
+  .table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--clr1VeryLightSat);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  table {
+    width: 100%;
+    display: table;
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tbody {
+    display: table-row-group;
+  }
+  table tr:last-child td:first-child {
+    border-bottom-left-radius: 30px;
+  }
+  table tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+  }
+  th {
+    display: table-cell;
+    padding: 10px 10px;
+  }
+  td {
+    display: table-cell;
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+  }
+  thead tr {
+    display: table-row;
+  }
+  tr {
+    display: table-row;
+  }
+  tr:last-child {
+    padding-bottom: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  td:nth-of-type(1):before {
+    content: none;
+  }
+  td:nth-of-type(2):before {
+    content: none;
+  }
+  td:nth-of-type(3):before {
+    content: none;
+  }
+  td:nth-of-type(4):before {
+    content: none;
+  }
+  td:nth-of-type(5):before {
+    content: none;
+  }
+  td:nth-of-type(6):before {
+    content: none;
+  }
+  td:nth-of-type(7):before {
+    content: none;
+  }
+  td:nth-of-type(8):before {
+    content: none;
+  }
+}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1600px) {}
