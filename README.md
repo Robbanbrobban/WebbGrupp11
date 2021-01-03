@@ -1,3 +1,3 @@
 # WebbGrupp11
 
-<p>Welcome to Group 11</p>
+<h2>Welcome to Group 11</h2>
